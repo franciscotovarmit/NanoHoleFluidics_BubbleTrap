@@ -1,7 +1,5 @@
 # Import the Microfluidic Technology File.
-
-from microfluidics_ipkiss3.technology import *
-
+#from microfluidics_ipkiss3.technology import * #comment when running main script, uncomment to debug geometry
 # Import IPKISS3 Packages.
 
 from ipkiss3 import all as i3
@@ -70,7 +68,6 @@ if __name__ == "__main__":
     res_radius = 300.0
     obstacle_diameter = 40
     obstacle_gap = 30.0
-
 
     vac_route = VacuumChannelRoute()
     vac_route_layout = vac_route .Layout()

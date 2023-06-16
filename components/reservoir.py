@@ -3,7 +3,7 @@
 from ipkiss3 import all as i3
 import microfluidics_ipkiss3.all as microfluidics
 
-from debri_trap_arrayV2 import * #JoinedObstacles
+from Array_Stamps_Neg import * #JoinedObstacles
 import math
 
 #Trap has been updated with boolean operation, to have flat ends

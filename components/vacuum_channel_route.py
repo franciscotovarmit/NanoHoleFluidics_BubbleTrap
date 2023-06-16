@@ -1,7 +1,5 @@
 # Import the Microfluidic Technology File.
-
-from microfluidics_ipkiss3.technology import *
-
+#from microfluidics_ipkiss3.technology import * #comment when running main script, uncomment to debug geometry
 # Import IPKISS3 Packages.
 
 from ipkiss3 import all as i3
@@ -10,7 +8,7 @@ from ipkiss3 import all as i3
 
 import microfluidics_ipkiss3.all as microfluidics
 import math
-from debri_trap_arrayV2 import * #JoinedObstacles
+from Array_Stamps_Neg import * #JoinedObstacles
 from reservoir import Reservoir
 
 # Define a Custom Class.
